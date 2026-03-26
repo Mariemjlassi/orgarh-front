@@ -103,7 +103,7 @@ export class LoginComponent implements OnInit {
           localStorage.setItem('userId', response.utilisateurId);
 
           if (this.authService.getUserRole() === 'RH') {
-            this.router.navigate(['/home']);
+            this.router.navigate(['/reporting']);
             localStorage.setItem('RHID', response.utilisateurId); // Stocker l'ID seulement si c'est un RH
             console.log('RH ID stocké:', response.utilisateurId);
 

@@ -70,23 +70,7 @@
     </section>
   
     <!-- Recent Updates -->
-    <section class="updates-section">
-      <div class="updates-header">
-        <h2><i class="pi pi-clock"></i> Dernières activités</h2>
-        <a routerLink="/notifications" class="see-all">Voir tout</a>
-      </div>
-      <div class="updates-list">
-        <div class="update-item" *ngFor="let update of recentUpdates">
-          <div class="update-badge" [ngClass]="update.type">
-            <i [class]="update.icon"></i>
-          </div>
-          <div class="update-content">
-            <p>{{update.message}}</p>
-            <small>{{update.time }}</small>
-          </div>
-        </div>
-      </div>
-    </section>
+    
   
     <!-- Quick Links -->
     <section class="quick-links">

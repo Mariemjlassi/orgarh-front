@@ -83,8 +83,8 @@
         </div>
 
         <div class="form-actions">
-          <button pButton type="button" label="Annuler" (click)="addDiplomeVisible = false"></button>
-          <button pButton type="submit" label="Assigner" [disabled]="assignForm.invalid"></button>
+          <button pButton type="button" label="Annuler" severity="danger" (click)="addDiplomeVisible = false"></button>
+          <button pButton type="submit" label="Assigner"  [disabled]="assignForm.invalid"></button>
         </div>
       </form>
     </p-dialog>
