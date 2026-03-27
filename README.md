@@ -31,9 +31,10 @@ Fonctionnalités principales :
 
 | Couche | Technologie |
 |--------|-------------|
-| Framework | Angular 17 |
+| Framework | Angular 19 |
 | Langage | TypeScript 5.x |
 | UI Components | PrimeNG |
+| Authentification | Spring Security + OAuth2 Google (OIDC) |
 | Styles | CSS3, Design Responsive |
 | Tests E2E | Cypress |
 | Gestion de projet | Jira, Agile/Scrum |
@@ -47,20 +48,32 @@ Fonctionnalités principales :
 ```
 src/
 ├── app/
-│   ├── core/              # Guards, interceptors, services globaux
-│   ├── shared/            # Composants réutilisables, pipes
-│   ├── features/
-│   │   ├── auth/          # Login, register, reCAPTCHA
-│   │   ├── dashboard/     # Tableau de bord admin
-│   │   ├── employes/      # Gestion des employés
-│   │   ├── carrieres/     # Suivi de carrière
-│   │   └── messagerie/    # Messagerie interne RH
-│   └── app-routing.module.ts
-├── assets/
-├── environments/
-│   └── environment.example.ts
-└── cypress/
-    └── e2e/               # Tests automatisés
+│   ├── Archive/           # Gestion des archives
+│   ├── auth/              # Authentification, OAuth2 Google
+│   ├── carte/             # Module carte
+│   ├── chatbot/           # Chatbot intégré
+│   ├── compatibilite/     # Module compatibilité
+│   ├── competence/        # Gestion des compétences
+│   ├── dashboard/         # Tableau de bord admin
+│   ├── diplome/           # Gestion des diplômes
+│   ├── direction/         # Module direction
+│   ├── employe/           # Gestion des employés
+│   ├── formation/         # Suivi des formations
+│   ├── gestion-permissions/ # Gestion des rôles
+│   ├── habilite/          # Habilitations
+│   ├── home/              # Page d'accueil
+│   ├── messagerie/        # Messagerie interne RH
+│   ├── navbar/            # Navigation principale
+│   ├── notification/      # Système de notifications
+│   ├── poste/             # Gestion des postes
+│   ├── reporting/         # Rapports et analytics
+│   ├── services/          # Services partagés
+│   ├── sidebar/           # Barre latérale
+│   ├── site/              # Module site
+│   └── utilisateur/       # Gestion des utilisateurs
+├── cypress/
+│   └── support/           # Tests end-to-end
+└── public/                # Assets statiques
 ```
 
 ---
@@ -69,7 +82,7 @@ src/
 
 - Node.js 18+
 - npm 9+
-- Angular CLI 17+
+- Angular CLI 19+
 - Backend OrgaRH en cours d'exécution sur `http://localhost:9090`
 
 ---
