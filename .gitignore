@@ -44,4 +44,4 @@ Thumbs.db
 # Environnement
 src/environments/environment.prod.ts
 
-auth.cofig.ts
+src/app/auth.config.ts
