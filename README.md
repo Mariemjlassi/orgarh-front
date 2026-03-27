@@ -18,7 +18,7 @@ Ce dépôt contient le **frontend** : une interface Angular responsive et pixel-
 
 Fonctionnalités principales :
 - Interface responsive et multi-navigateurs (pixel-perfect sur tous les appareils)
-- Authentification avec formulaire sécurisé (reCAPTCHA intégré)
+- Authentification sécurisée avec JWT et reCAPTCHA, verrouillage de compte
 - Tableau de bord administrateur avec visualisations prédictives
 - Gestion des rôles et des accès utilisateurs
 - Messagerie interne pour la communication RH
@@ -34,7 +34,7 @@ Fonctionnalités principales :
 | Framework | Angular 19 |
 | Langage | TypeScript 5.x |
 | UI Components | PrimeNG |
-| Authentification | Spring Security + OAuth2 Google (OIDC) |
+| Authentification | Spring Security, JWT, reCAPTCHA |
 | Styles | CSS3, Design Responsive |
 | Tests E2E | Cypress |
 | Gestion de projet | Jira, Agile/Scrum |
@@ -49,7 +49,7 @@ Fonctionnalités principales :
 src/
 ├── app/
 │   ├── Archive/           # Gestion des archives
-│   ├── auth/              # Authentification, OAuth2 Google
+│   ├── auth/              # Authentification, JWT, reCAPTCHA
 │   ├── carte/             # Module carte
 │   ├── chatbot/           # Chatbot intégré
 │   ├── compatibilite/     # Module compatibilité
@@ -148,18 +148,20 @@ npx cypress run
 ## Backend
 
 L'API REST Spring Boot de ce projet est disponible ici :
-**[orgarh-backend](https://github.com/TON_USERNAME/orgarh-backend)**
+**[orgarh-backend](https://github.com/Mariemjlassi/orgarh-backend)**
 
 ---
 
 ## Auteure
 
-**Mariem Jlassi**
-Étudiante Ingénieure en Informatique — iTeam University, Tunis
+Mariem Jlassi  
+Étudiante Ingénieure en Informatique — iTeam University, Tunis  
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mariem%20Jlassi-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/mariem-jlassi)
-[![Portfolio](https://img.shields.io/badge/Portfolio-mariem--portfolio.netlify.app-orange?style=flat-square)](https://mariem-portfolio.netlify.app)
+LinkedIn : https://linkedin.com/in/mariem-jlassi  
+
+Portfolios :  
+- https://mariem-portfolio.netlify.app/  
+- https://mariem-os.netlify.app/  
 
 ---
-
 *Projet de Fin d'Études — Février 2025 à Mai 2025 — Note : Excellent*
