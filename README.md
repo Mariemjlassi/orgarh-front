@@ -2,9 +2,9 @@
 
 > Application web de gestion de carrière et des ressources humaines — Interface Angular
 
-[![Angular](https://img.shields.io/badge/Angular-17-red?style=flat-square)](https://angular.io/)
+[![Angular](https://img.shields.io/badge/Angular-19-red?style=flat-square)](https://angular.io/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue?style=flat-square)](https://www.typescriptlang.org/)
-[![PrimeNG](https://img.shields.io/badge/PrimeNG-17-blueviolet?style=flat-square)](https://primeng.org/)
+[![PrimeNG](https://img.shields.io/badge/PrimeNG-19-blueviolet?style=flat-square)](https://primeng.org/)
 [![Cypress](https://img.shields.io/badge/Tested%20with-Cypress-brightgreen?style=flat-square)](https://www.cypress.io/)
 [![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)]()
 
